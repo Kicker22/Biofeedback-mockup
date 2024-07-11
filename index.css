@@ -1,0 +1,197 @@
+
+.mainHead {
+    position: relative;
+    background: url('./images/example1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.mainHead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.mainHead .content {
+    position: relative;
+    z-index: 2;
+    padding: 50px;
+}
+
+.social{
+    color: white;
+}
+.social:hover {
+    color: #cecece;
+}
+
+.navbar{
+background-color: #f2f8e5 ;
+}
+#qa{
+background-color: #f2f8e5 ;
+}
+
+.aboutImg{
+    
+    border-radius: 15%;
+}
+
+/* Services Section Styling */
+.service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-card .card-body {
+    padding: 20px;
+}
+
+.service-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.service-card .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.service-card .btn-primary {
+    background-color: #0560c2;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.service-card .btn-primary:hover {
+    background-color: #02448a;
+}
+
+/* Click to Chat Section */
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Books Section Styling */
+.book-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.book-card .card-body {
+    padding: 20px;
+}
+
+.book-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.book-card .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.book-card .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.book-card .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Certifications Section Styling */
+.certification-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.certification-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.certification-card .card-body {
+    padding: 20px;
+}
+
+.certification-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.certification-card .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#contact .form-group {
+    margin-bottom: 1.5rem;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#contact .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
