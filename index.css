@@ -159,6 +159,11 @@ background-color: #f2f8e5 ;
     color: #6c757d;
 }
 
+.qeeg{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Contact Section */
 #contact {
