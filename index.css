@@ -1,4 +1,3 @@
-
 .mainHead {
     position: relative;
     background: url('./images/example1.jpg') no-repeat center center;
@@ -22,22 +21,23 @@
     padding: 50px;
 }
 
-.social{
+.social {
     color: white;
 }
+
 .social:hover {
     color: #cecece;
 }
 
-.navbar{
-background-color: #f2f8e5 ;
-}
-#qa{
-background-color: #f2f8e5 ;
+.navbar {
+    background-color: #f2f8e5;
 }
 
-.aboutImg{
-    
+#qa {
+    background-color: #f2f8e5;
+}
+
+.aboutImg {
     border-radius: 15%;
 }
 
@@ -159,11 +159,10 @@ background-color: #f2f8e5 ;
     color: #6c757d;
 }
 
-.qeeg{
+.qeeg {
     display: flex;
     justify-content: center;
 }
-
 
 /* Contact Section */
 #contact {
@@ -199,4 +198,51 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Responsive Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+.aboutImg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Social Icons */
+.social {
+    margin: 0 10px;
+}
+
+/* Service Cards */
+.service-card, .book-card, .certification-card {
+    border: none;
+}
+
+.service-card .card-body, .book-card .card-body, .certification-card .card-body {
+    padding: 20px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .service-card, .book-card, .certification-card {
+        margin-bottom: 20px;
+    }
+
+    .qeeg .certification-card {
+        width: 100%;
+    }
 }
