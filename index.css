@@ -1,11 +1,31 @@
-.mainHead {
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+.jumbotron {
     position: relative;
     background: url('./images/example1.jpg') no-repeat center center;
     background-size: cover;
     color: white;
 }
 
-.mainHead .overlay {
+.jumbotron .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,14 +35,16 @@
     z-index: 1;
 }
 
-.mainHead .content {
+.jumbotron .content {
     position: relative;
     z-index: 2;
     padding: 50px;
 }
 
+/* Social Icons */
 .social {
     color: white;
+    margin: 0 10px;
 }
 
 .social:hover {
@@ -38,7 +60,7 @@
 }
 
 .aboutImg {
-    border-radius: 15%;
+    border-radius: 5%;
 }
 
 /* Services Section Styling */
@@ -47,7 +69,7 @@
     border: none;
     border-radius: 10px;
     overflow: hidden;
-    background: #f8f9fa;
+    background: #fff;
 }
 
 .service-card:hover {
@@ -97,7 +119,7 @@
     border: none;
     border-radius: 10px;
     overflow: hidden;
-    background: #f8f9fa;
+    background: #fff;
 }
 
 .book-card:hover {
@@ -129,6 +151,20 @@
 .book-card .btn-primary:hover {
     background-color: #0056b3;
 }
+.book1 {
+    height: 200px; /* Fixed height for image container */
+    background-image: url("./images/Screenshot\ 2024-07-11\ 113927.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.book2 {
+    height: 200px; /* Fixed height for image container */
+    background-image: url("https://psychophysiology.pk/wp-content/uploads/2021/11/RegularHideousBellfrog-size_restricted-min.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
 
 /* Certifications Section Styling */
 .certification-card {
@@ -136,7 +172,7 @@
     border: none;
     border-radius: 10px;
     overflow: hidden;
-    background: #f8f9fa;
+    background: #fff;
 }
 
 .certification-card:hover {
@@ -166,9 +202,10 @@
 
 /* Contact Section */
 #contact {
-    background-color: #f8f9fa;
+    background-color: #fff;
     border-radius: 10px;
     padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #contact .form-group {
@@ -201,38 +238,6 @@ footer p {
 }
 
 /* Responsive Styles */
-body {
-    font-family: Arial, sans-serif;
-}
-
-.navbar-nav .nav-item .nav-link {
-    color: #333;
-}
-
-.navbar-nav .nav-item .nav-link:hover {
-    color: #007bff;
-}
-
-.aboutImg {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Social Icons */
-.social {
-    margin: 0 10px;
-}
-
-/* Service Cards */
-.service-card, .book-card, .certification-card {
-    border: none;
-}
-
-.service-card .card-body, .book-card .card-body, .certification-card .card-body {
-    padding: 20px;
-}
-
-/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     .navbar-nav {
         text-align: center;
